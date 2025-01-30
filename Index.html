@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <title>NullRain</title>
+  <!-- Bootstrap CSS (CDN) -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">IT Consulting</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="d-flex align-items-center justify-content-center text-center">
+    <div class="container">
+      <h1 class="display-4">Future-Proof IT Solutions</h1>
+      <p class="lead">
+        We help businesses streamline and innovate through world-class IT consulting services.
+      </p>
+      <a href="#services" class="btn btn-primary btn-lg">Our Services</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">About Us</h2>
+      <p>
+        We are a team of expert IT consultants with decades of combined experience in software
+        development, cloud infrastructure, cybersecurity, and more. Our mission is to empower
+        organizations with the latest technologies and processes to stay ahead of the curve.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h4>Cloud Migration</h4>
+          <p>
+            Seamlessly transition your existing infrastructure to popular cloud platforms
+            like AWS, Azure, or Google Cloud.
+          </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h4>Software Development</h4>
+          <p>
+            Custom web and mobile solutions tailored to your business needs, from planning
+            to deployment.
+          </p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h4>Cybersecurity</h4>
+          <p>
+            Comprehensive security audits, threat mitigation strategies, and 24/7 monitoring
+            to keep your systems safe.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="mb-4">Contact Us</h2>
+      <p class="mb-4">
+        Ready to transform your IT infrastructure? Reach out to us and let’s start planning
+        your next big project.
+      </p>
+      <form>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="John Doe" />
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="you@example.com"
+            />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">How can we help?</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="5"
+            placeholder="Describe your project or question here..."
+          ></textarea>
+        </div>
+        <button class="btn btn-dark" type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="m-0">&copy; <span id="year"></span> My IT Consulting Company. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- jQuery and Bootstrap JS (CDN) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <!-- Custom JS (Optional) -->
+  <script>
+    document.getElementById("year").innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>

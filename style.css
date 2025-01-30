@@ -1,0 +1,22 @@
+/* Global Styles */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('https://via.placeholder.com/1600x800') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  /* Ensure there's enough contrast for the text in the hero section */
+  #hero .container {
+    max-width: 600px;
+  }
+  
+  /* Footer */
+  footer {
+    position: relative;
+  }
